@@ -16,6 +16,11 @@ body{
     flex-direction: column;
     
 }
+#PC{
+  height: 70px;
+  width: 70px;
+  border: 1px solid green;
+}
 header{
   border: 1px solid red;
   display: flex;
