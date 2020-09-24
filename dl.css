@@ -23,6 +23,7 @@ body{
   justify-content: center;
   text-align: center;
   height: 100%;
+  margin: auto;
 }
 header{
   border: 1px solid red;
