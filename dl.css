@@ -19,6 +19,7 @@ body{
 header{
   border: 1px solid red;
   display: flex;
+  width: 450px;
 
 }
 h1{
