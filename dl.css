@@ -17,9 +17,12 @@ body{
     
 }
 #PC{
-  height: 70px;
   width: 70px;
   border: 1px solid green;
+  align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
 }
 header{
   border: 1px solid red;
