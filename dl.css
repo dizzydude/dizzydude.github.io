@@ -6,8 +6,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
-    margin:auto;
-    
+    display: flex;
 
 }
 .container{
@@ -21,6 +20,7 @@ header{
   border: 1px solid red;
   display: flex;
   width: 450px;
+  margin: auto;
 
 }
 h1{
