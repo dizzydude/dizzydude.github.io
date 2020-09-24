@@ -14,5 +14,9 @@ body{
     margin: auto;
     overflow: hidden;
     padding: 0 3rem;
-    border: 1px solid red;
+    
 }
+header{
+  border: 1px solid red;
+}
+
