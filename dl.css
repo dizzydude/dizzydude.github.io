@@ -19,6 +19,9 @@ body{
 header{
   border: 1px solid red;
   display: flex;
-  align-items: center;
+
+}
+h1{
+  margin: auto;
 }
 
