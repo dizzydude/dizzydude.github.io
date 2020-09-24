@@ -20,5 +20,6 @@ header{
   border: 1px solid red;
   display: flex;
   left: 0;
+  margin: 0 auto;
 }
 
