@@ -6,7 +6,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
-    padding: 15px;
+    padding: 0 auto;
+    
 
 }
 .container{
