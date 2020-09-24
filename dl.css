@@ -18,5 +18,9 @@ body{
 }
 header{
   border: 1px solid red;
+  display: flex;
+}
+header, h1{
+  justify-content: center;
 }
 
