@@ -6,14 +6,12 @@
 body{
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
-    display: flex;
 
 }
 #container{
     max-width: 960px;
     overflow: hidden;
     display: flex;
-    flex-direction: column;
     border: 1px solid blue;
     
 }
@@ -25,27 +23,5 @@ body{
   text-align: center;
   height: 600;
   margin: auto;
-}
-header{
-  border: 1px solid red;
-  display: flex;
-  
-  margin: auto;
-
-}
-h1{
-  margin: auto;
-  font-size: 2.5rem;
-  border:1px solid black;
-  padding: 15px;
-  
-}
-img{
-  margin: auto;
-    border:1px solid orange;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    padding: 25px;
 }
 
