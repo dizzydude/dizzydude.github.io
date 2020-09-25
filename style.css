@@ -21,15 +21,15 @@ body{
     padding: 0 3rem;
 }
 .showcase{
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: #282F37;
+    color: white;
     height: 100vh;
     position: relative;
 }
 .showcase:before{
     content: '';
     /*background: url('../IMG/image.jpeg') no-repeat center center/cover;*/
-    background-color: #666;
+    background-color: #282F37;
     position: absolute;
     top: 0;
     left: 0;
@@ -69,11 +69,11 @@ body{
 }
 .content-1{
     height: 100vh;
-    background-color: gray;
+    background-color: #282F37;
     
 }
 .content-2{
     height: 100vh;
-    background-color: #666;
+    background-color: #282F37;
     
 }
