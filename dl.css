@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+
+}
+#container{
+    max-width: 960px;
+    max-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    border: 1px solid blue;
+    
+}
+#pc{
+  border: 1px solid green;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 600;
+  margin: auto;
+}
+#android{
+  border: 1px solid green;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 600;
+  margin: auto;
+}
+
