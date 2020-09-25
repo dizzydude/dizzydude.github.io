@@ -15,7 +15,15 @@ body{
     border: 1px solid blue;
     
 }
-#PC{
+#pc{
+  border: 1px solid green;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 600;
+  margin: auto;
+}
+#android{
   border: 1px solid green;
   align-items: center;
   justify-content: center;
