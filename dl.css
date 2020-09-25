@@ -8,28 +8,70 @@ body{
     line-height: 1.4;
 
 }
+a{
+  text-decoration: none;
+}
+h2{
+  color: #AFB9C3;
+}
+.card{
+  width: 65%;
+  height: 300px;
+  margin: auto;
+  border-bottom: 2px solid orangered;
+  background-color: #24292F;
+  padding-top: 40px;
+}
+.card-container{
+  padding: 2px 16px;
+  color: #737C85;
+  #border: 1px solid orangered;
+  margin-top: 15px;
+  
+  
+}
+i{
+  border: 0.9px solid orangered;
+  border-radius: 20%;
+  padding: 15px;
+  font-size: 4rem;
+  color: orangered;
+  
+}
 #container{
     max-width: 960px;
     max-height: 100vh;
-    overflow: hidden;
-    display: flex;
-    border: 1px solid blue;
+    
+    display: block;
+   # border: 1px solid red;
     
 }
 #pc{
-  border: 1px solid green;
+
   align-items: center;
   justify-content: center;
   text-align: center;
   height: 600;
+  width: 100%;
   margin: auto;
+  background-color: #343B43;
 }
 #android{
-  border: 1px solid green;
+  
   align-items: center;
   justify-content: center;
   text-align: center;
   height: 600;
   margin: auto;
+  background-color: #343B43;
+}
+#others{
+  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 600;
+  margin: auto;
+  background-color: #343B43;
 }
 
