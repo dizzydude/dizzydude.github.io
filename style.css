@@ -14,6 +14,14 @@ body{
     line-height: 1.4;
 
 }
+i{
+  
+  color: orangered;
+}
+hr{
+  border: 1px solid orangered;
+  width: 40%;
+}
 .container{
     max-width: 960px;
     margin: auto;
@@ -21,8 +29,8 @@ body{
     padding: 0 3rem;
 }
 .showcase{
-    background-color: #282F37;
-    color: white;
+    background-color: #FFFFFF;
+    color: #090A0C;
     height: 100vh;
     position: relative;
 }
@@ -50,13 +58,14 @@ body{
 }
 .showcase p{
     font-size: 0.9rem;
+    color: #8B8E93;
 
 }
 .btn{
     display: inline-block;
-    border: 1px solid green;
-    background-color: var(--primary-color);
-    color: #fff;
+    border: 1px solid orangered;
+    background-color: #FFFFFF;
+    color: orangered;
     padding: 0.75rem 1.5rem;
     margin-top: 1rem;
     text-decoration: none;
@@ -64,7 +73,8 @@ body{
 }
 .btn:hover{
     opacity: 0.7;
-    background-color: rgba(24, 39, 51, 0.85);
+    background-color: orangered;
+    color: #FFFFFF;
     transition: all 0.4s ease;
 }
 .content-1{
@@ -74,6 +84,6 @@ body{
 }
 .content-2{
     height: 100vh;
-    background-color: #282F37;
+    background-color: #FFFFFF;
     
 }

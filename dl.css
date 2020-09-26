@@ -12,14 +12,14 @@ a{
   text-decoration: none;
 }
 h2{
-  color: #AFB9C3;
+  color: #090A0C;
 }
 .card{
   width: 65%;
   height: 300px;
   margin: auto;
   border-bottom: 2px solid orangered;
-  background-color: #24292F;
+  background-color: #FFFFFF;
   padding-top: 40px;
 }
 .card-container{
@@ -35,7 +35,7 @@ i{
   border-radius: 20%;
   padding: 15px;
   font-size: 4rem;
-  color: orangered;
+  color: #737C85;
   
 }
 #container{
@@ -54,7 +54,7 @@ i{
   height: 600;
   width: 100%;
   margin: auto;
-  background-color: #343B43;
+  background-color: #FFFFFF;
 }
 #android{
   
@@ -63,7 +63,7 @@ i{
   text-align: center;
   height: 600;
   margin: auto;
-  background-color: #343B43;
+  background-color: #FFFFFF;
 }
 #others{
   
@@ -72,6 +72,6 @@ i{
   text-align: center;
   height: 600;
   margin: auto;
-  background-color: #343B43;
+  background-color: #FFFFFF;
 }
 

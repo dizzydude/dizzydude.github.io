@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .menu-wrap{
     position: fixed;
     top: 0;
@@ -13,7 +16,6 @@
     width: 50px;
     height: 50px;
     opacity: 0;
-    border: green;
 
 }
 .menu-wrap .hamburger{
@@ -97,7 +99,7 @@
 
 }
 .menu-wrap .menu > div{
-    background: #24292F;
+    background: #FFFFFF;
     border-radius: 50%;
     width: 200vw;
     height: 200vw;
@@ -119,25 +121,57 @@
 .menu-wrap .menu > div > div > ul > li{
     list-style: none;
     color:#8B8E93;
+    font-size: 1.2rem;
+    padding: 1rem;
+  
+}
+.menu-wrap .menu > div > div > ul > li:hover{
+    list-style: none;
+    color:#090A0C;
     font-size: 1.5rem;
     padding: 1rem;
+    
+    
+    
 }
 .menu-wrap .menu > div > div > ul > li > a {
     color: inherit;
     text-decoration: none;
     transition: color 0.4s ease;
+    
 }
 
 
 .menu-wrap .menu .social-btn > ul > li {
-    margin-top: 10px;
-    padding: 5px;
+    
+    #padding: 10px;
     display: inline-block;
     list-style: none;
     color: #fff;
+    
+}
+.menu-wrap .menu .social-btn > ul {
+    #border: 1px solid red;
+    margin-top: 4rem;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 .menu-wrap .menu .social-btn > ul > li > a {
     color: inherit;
     text-decoration: none;
     transition: color 0.4s ease;
+}
+.menu-logo{
+  color: orangered;
+}
+.footer{
+  color: orangered;
+  #border: 1px solid orangered;
+  
+}
+.footer p{
+  font-size: 0.5rem;
 }
